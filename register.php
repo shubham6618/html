@@ -10,12 +10,7 @@
 		$mobile=mysql_real_escape_string(trim($_POST['mobile']));
 		$password1=mysql_real_escape_string(trim($_POST['password1']));
 		$password2=mysql_real_escape_string(trim($_POST['password2']));
-		if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-   			 
-		}
-		else
-			
-			header("Location: index.php?msg=email");
+		
 		if ($password1 === $password2) {
 			$password=md5($password1);
 			$sql_register="INSERT INTO chat (title,first_name,last_name,email,mobile,password,is_active,create_dt) values('$title','$first_name','$last_name','$email','$mobile','$password',1,NOW())";

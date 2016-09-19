@@ -99,16 +99,20 @@
                                         Name</label>
                                     <div class="col-sm-10">
                                         <div class="row">
-                                            <div class="col-md-3">
-                                                <select class="form-control">
+                                            <div class="col-md-2">
+                                                <select class="form-control" name="title">
                                                     <option>Mr.</option>
                                                     <option>Ms.</option>
                                                     <option>Mrs.</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-9">
-                                                <input type="text" class="form-control" placeholder="Name" />
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control" name="firstName" placeholder="First Name" />
                                             </div>
+                                            <div class="col-md-5">
+                                                <input type="text" class="form-control" name="lastName" placeholder="Last Name" />
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>

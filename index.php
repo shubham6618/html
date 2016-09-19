@@ -93,7 +93,7 @@
                                 </form>
                             </div>
                             <div class="tab-pane" id="Registration">
-                                <form role="form" class="form-horizontal">
+                                <form role="form" class="form-horizontal" action="register.php" method="POST">
                                 <div class="form-group">
                                     <label for="email" class="col-sm-2 control-label">
                                         Name</label>
@@ -148,7 +148,7 @@
                                     <div class="col-sm-2">
                                     </div>
                                     <div class="col-sm-10">
-                                        <button type="button" class="btn btn-primary btn-sm">
+                                        <button type="button" name="register" class="btn btn-primary btn-sm">
                                             Save & Continue</button>
                                         <button type="button" class="btn btn-default btn-sm">
                                             Cancel</button>

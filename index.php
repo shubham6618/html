@@ -43,9 +43,9 @@
 
 </head>
 <body>
-	<!-- Large modal -->
-<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-    Login modal</button>
+<!-- 	<!-- Large modal -->
+<!-- <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Login modal</button> --> -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg">

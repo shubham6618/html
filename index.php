@@ -40,10 +40,7 @@
 
 
 	</style>
-	<script type="text/javascript">
-		$('#myModal').modal('show');
-		
-	</script>
+
 </head>
 <body>
 	<!-- Large modal -->
@@ -175,4 +172,9 @@
 
 
 </body>
+
+<script type="text/javascript">
+		$('#myModal').modal('show');
+		
+	</script>
 </html>

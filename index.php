@@ -131,15 +131,15 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="password" class="col-sm-2 control-label">
+                                    <label for="password1" class="col-sm-2 control-label">
                                         Password</label>
                                     <div class="col-sm-10">
                                         <input type="password" class="form-control" name="password1" id="password1" placeholder="Password" />
                                     </div>
                                 </div>
                                  <div class="form-group">
-                                    <label for="password" class="col-sm-2 control-label">
-                                        Retype Password</label>
+                                    <label for="password2" class="col-sm-2 control-label">
+                                        Confirm Password</label>
                                     <div class="col-sm-10">
                                         <input type="password" class="form-control" name="password2" id="password2" placeholder="Confirm Password" />
                                     </div>

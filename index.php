@@ -148,8 +148,8 @@
                                     <div class="col-sm-2">
                                     </div>
                                     <div class="col-sm-10">
-                                        <button type="button" name="register" class="btn btn-primary btn-sm">
-                                            Save & Continue</button>
+                                        <input type="submit" name="register" class="btn btn-primary btn-sm">
+                                            Sign up</input>
                                         <button type="button" class="btn btn-default btn-sm">
                                             Cancel</button>
                                     </div>

@@ -127,7 +127,7 @@
                                     <label for="mobile" class="col-sm-2 control-label">
                                         Mobile</label>
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" name="mobile" id="mobile" placeholder="Mobile" />
+                                        <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile" />
                                     </div>
                                 </div>
                                 <div class="form-group">

@@ -17,7 +17,9 @@
 			
 			header("Location: index.php?msg=email");
 		if ($password1 === $password2) {
-			
+			$password=md5($password1);
+			$sql_register="INSERT INTO chat (title,first_name,last_name,email,mobile,password,is_active,create_dt) values('$title','$first_name','$last_name','$email','$mobile','$password',1,NOW())";
+			echo $sql_register;
 		} else {
 			
 			header("Location: index.php?msg=password");

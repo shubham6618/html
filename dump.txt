@@ -1,3 +1,7 @@
+mysqldump -u root -p chat > chat20160920.sql
+mysql -u root -p chat < chat20160920.sql
+
+
 create database chat;
 use chat;
 

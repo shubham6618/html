@@ -26,7 +26,7 @@ CREATE TABLE `gupshup` (
   `id` int(6) NOT NULL AUTO_INCREMENT,
   `u_id` int(6) NOT NULL,
   `chat` text NOT NULL,
-  `sent_time` datetime DEFAULT CURRENT_TIMESTAMP,
+  `sent_time` timestamp DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -57,7 +57,7 @@ CREATE TABLE `users` (
   `mobile` varchar(15) NOT NULL,
   `password` varchar(200) NOT NULL,
   `is_active` int(1) NOT NULL,
-  `create_dt` datetime DEFAULT CURRENT_TIMESTAMP,
+  `create_dt` timestamp DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;

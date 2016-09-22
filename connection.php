@@ -1,7 +1,7 @@
 <?php
 
-//$con = mysql_connect("localhost","root","922vDxo8");
-$con = mysql_connect("localhost","root","qwerty");
+//$con = mysql_connect("localhost","root","12345678");
+$con = mysql_connect("localhost","root","12345678");
 
 if (!$con) {
   die('Could not connect: ' . mysql_error());

@@ -106,7 +106,7 @@
                                                 </select>
                                             </div>
                                             <div class="col-md-5">
-                                                <input type="text" class="form-control" placeholder="Name" name="first_name" required/>
+                                                <input type="text" class="form-control" placeholder="Name" name="first_name" value="Virendra Singh"required/>
                                             </div>
                                             <div class="col-md-4">
                                                 <input type="text" class="form-control" placeholder="Name" name="last_name" required />
